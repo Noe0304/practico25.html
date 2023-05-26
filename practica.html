@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+
+let firstName = 'Noe'           // 1
+let lastName = 'Rocha'
+let country = 'Bolivia'
+let city = 'Santa Cruz' 
+let age = 20
+let isMarried = 'falso'
+let year = 2023
+ 
+console.log(typeof firstName);
+console.log(typeof lastName);
+console.log(typeof city);
+console.log(typeof age);
+console.log(typeof isMarried);
+console.log(typeof year);
+
+
+console.log(typeof '10' == 10);  // 2
+
+console.log(parseInt ('9.8') == (10)); //3
+
+let boolean = true //4
+
+let variable = 'JavaScript' 
+console.log(variable.includes('J'));
+console.log(variable.includes('cript'));
+console.log(variable.includes('ava'));
+
+let string = 'JavaScript'  
+console.log(variable.includes('src'))
+console.log(variable.includes('Ava'));
+console.log(variable.includes('pT'));
+
+console.log(4 > 3); // true   //5
+console.log(4 >= 3); // true
+console.log(4 < 3); // false
+console.log(4 <= 3); // false
+console.log(4 == 4); // true
+console.log(4 === 4); // true
+console.log(4 != 4); // false
+console.log(4 !== 4); // false
+console.log(4 != '4'); // false
+console.log(4 == '4'); // true
+console.log(4 === '4'); // false
+
+let string2 = 'Python'
+let string1 ='JavaScript' 
+console.log(string2.length);
+console.log(string1.length);
+console.log(string2.length == string1.length);
+
+const check = 4 > 3 && 10 < 12; //true xq 4 es mayor que 3    // 6
+const check1 = 4 > 3 && 10 > 12 // false
+const check2 = 4 > 3 || 10 < 12 // true
+const check3 =4 > 3 || 10 > 12 // true
+const check4 =!(4 > 3) // false
+const check5 =!(4 < 3) // true
+const check6 =!(false) // true
+const check7 =!(4 > 3 && 10 < 12) // false
+const check8 =!(4 > 3 && 10 > 12) // true
+const check9 =!(4 === '4') // true
+
+
+console.log(check);
+console.log(check1);
+console.log(check2);
+console.log(check3);
+console.log(check4);
+console.log(check5);
+console.log(check6);
+console.log(check7);
+console.log(check8);
+console.log(check9);
+
+let string3= 'Python'
+let string4 ='dragon' 
+console.log(string3.length);
+console.log(string4.length);
+console.log(string3.length == string4.length);
+
+ 
+const año = new Date();               // 7
+console.log(año.getFullYear());
+
+const mes = new Date(0);
+console.log(mes.getMonth()); 
+
+const fecha = new Date();
+console.log(fecha.getDate()); 
+
+const dia = new Date ();
+console.log(dia.getDay());
+
+const now = new Date();
+console.log(now.getHours());
+
+const minutos = new Date();
+console.log(minutos.getMinutes());
+
+const numero = new Date();
+console.log(numero);
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
